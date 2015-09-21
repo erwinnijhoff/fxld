@@ -9,8 +9,6 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'wow fadeInUp' ); ?>>
 
-	<div>Test</div>
-
 	<?php if ( has_post_thumbnail() ) : ?>
 
 		<div class="post-thumbnail">
